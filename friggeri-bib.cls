@@ -33,9 +33,6 @@
 %% STRUCTURE
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%% Thanks to Olivia Guest for styling inspiration
-%% http://oliviaguest.com/
-
 %% Put section titles on left
 \reversemarginpar
 
@@ -66,7 +63,7 @@
        \parbox{4in}{\, \hfill %
                     \arabic{page} of \protect\pageref*{LastPage}
                     \hfill \,}}
-            
+
 %% An itemize-style list with little space between items
 \newenvironment{innerlist}[1][\enskip\textbullet]%
         {\begin{compactitem}[#1]}{\end{compactitem}}
@@ -81,7 +78,7 @@
         {\pagebreak[2]\vspace{1.25\baselineskip}%
          \phantomsection\addcontentsline{toc}{section}{#1}%
          \leavevmode\marginpar{\flushleft \
-         
+
          \color{sectiongray} #1}#2}
 
 % Create new column types for tables
