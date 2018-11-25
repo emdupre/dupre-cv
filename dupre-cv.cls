@@ -1,4 +1,4 @@
-\ProvidesClass{friggeri-bib}
+\ProvidesClass{dupre-cv}
 \NeedsTeXFormat{LaTeX2e}
 
 \LoadClass{article}
