@@ -132,7 +132,7 @@
 
 \newcommand{\makeauthorbold}[1]{%
     \expandafter\ifstrequal\expandafter{\namepartfamily}{#1}%
-    {\addfontfeature{Color=black}{\namepartgiveni\space}\namepartfamily}%
+    {\addfontfeature{Color=black}\underline{{\namepartgiveni\space}\namepartfamily}}%
     {\addfontfeature{Color=lightgray}{\namepartgiveni\space}\namepartfamily}
 }
 
