@@ -130,7 +130,7 @@
 % Personalize   %
 %%%%%%%%%%%%%%%%%
 
-\newcommand{\makeauthorbold}[1]{%
+\newcommand{\underlineauthor}[1]{%
     \expandafter\ifstrequal\expandafter{\namepartfamily}{#1}%
     {\addfontfeature{Color=black}\underline{{\namepartgiveni\space}\namepartfamily}}%
     {\addfontfeature{Color=lightgray}{\namepartgiveni\space}\namepartfamily}
@@ -138,7 +138,7 @@
 
 \DeclareNameFormat{author}{%
   \Small
-  \makeauthorbold{DuPre}
+  \underlineauthor{DuPre}
   \ifthenelse{\value{listcount}<\value{liststop}}
     {\addcomma\space}
     {\adddot}%
